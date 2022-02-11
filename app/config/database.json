@@ -1,5 +1,16 @@
 {
   "development": {
+    "username": "pujnoqsaleejpp",
+    "password": "f2a2b457477fa7bc1c0aed51137704fba2722aa0aa5044fec56a064037d5d151",
+    "database": "d73ucfr0paeiab",
+    "host": "ec2-35-174-35-242.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "port": 5432,
+    "dialectOptions": {
+      "ssl": { "rejectUnauthorized": true }
+    }
+  },
+  "development2": {
     "username": "root",
     "password": null,
     "database": "bwa_db_toko_buku",
@@ -14,10 +25,14 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "pujnoqsaleejpp",
+    "password": "f2a2b457477fa7bc1c0aed51137704fba2722aa0aa5044fec56a064037d5d151",
+    "database": "d73ucfr0paeiab",
+    "host": "ec2-35-174-35-242.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "port": 5432,
+    "dialectOptions": {
+      "ssl": { "rejectUnauthorized": true }
+    }
   }
 }
