@@ -7,7 +7,7 @@
     "dialect": "postgres",
     "port": 5432,
     "dialectOptions": {
-      "ssl": { "rejectUnauthorized": true }
+      "ssl": { "rejectUnauthorized": false }
     }
   },
   "development2": {
